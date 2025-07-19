@@ -6,22 +6,43 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "start:server": "ts-node server.ts"
   },
   "dependencies": {
+    "@emoji-mart/data": "^1.2.1",
+    "@emoji-mart/react": "^1.1.1",
+    "@headlessui/react": "^2.2.4",
+    "@tanstack/query-core": "^5.81.5",
+    "@tanstack/react-query": "^5.81.5",
+    "@uploadthing/react": "^7.3.2",
+    "axios": "^1.10.0",
+    "emoji-mart": "^5.6.0",
+    "express": "^5.1.0",
+    "framer-motion": "^12.19.1",
+    "ioredis": "^5.6.1",
+    "next": "15.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.3"
+    "react-responsive": "^10.0.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "sonner": "^2.0.5",
+    "uploadthing": "^7.7.3",
+    "viem": "^2.31.4",
+    "wagmi": "^2.15.6"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/express": "^5.0.3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
